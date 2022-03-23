@@ -2,7 +2,7 @@
  * @Author: Yanzhao.Zhang
  * @Date: 2021-07-07 17:27:32
  * @LastEditors: Yanzhao.Zhang
- * @LastEditTime: 2022-01-26 11:16:33
+ * @LastEditTime: 2022-03-23 21:59:40
  * @Description: 路由
  */
 import Vue from 'vue';
@@ -30,6 +30,11 @@ const routes = [
     path: '/style-test',
     name: 'styleTest',
     component: () => import('@/views/styleTest/index.vue'),
+  },
+  {
+    path: '/canvas',
+    name: 'canvas',
+    component: () => import('@/views/canvas/index.vue'),
   },
   {
     path: '/routerTest',
